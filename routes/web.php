@@ -11,7 +11,6 @@
 |
 */
 Auth::loginUsingId(3);
-
 Route::get('/', function () {
 //    $todo = \App\Todo::find(2);
 //    Auth::user()->notify(new \App\Notifications\UserSubscribe());//邮件通知 notifications
